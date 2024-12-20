@@ -20,7 +20,7 @@ There are 3 other maps you can use. Make your own if you like, but:
   * there can only be one, and at least one player -> __'P'__
   * the map must be surrounded by walls -> __'1'__
   * the player must be able to access all pizza slices, and the exit (flood fill baby)
-  * 
+
 The window will open with the wild streets of night-time Málaga center, some delicious pizza slices you have to eat (all of them), and a cop car that will only leave and give space for your Uber ride once you've eaten up and chilled out.
 
 Have fun!! Making this game def was :)
