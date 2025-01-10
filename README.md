@@ -7,9 +7,13 @@ If you want to give it a try, or just mess around with the code, create more map
 
 Open a terminal in the directory and type:
 ```
+cd MLX42-master/build
+cmake -B build
+cmake --build build -j4
+cd ../..
 make
 ```
-This will compile the game, my libft library (which has a bunch of usefull C functions), my get_next_line to read from files, and the MLX graphic library, developed by 42 CODAM students. The MLX library doesn't follow the 42 norm, but the rest of the program does.
+This will compile the MLX graphic library (developed by 42 CODAM students) first, and then in the root repository of the game it will compile the game, my libft library (which has a bunch of usefull C functions), and my get_next_line to read from files. The MLX library doesn't follow the 42 norm, but the rest of the program does.
 Once you have the program ready for some action, type:
 ```
 ./so_long maps/map3.ber
